@@ -1,0 +1,126 @@
+<div *ngIf="isRegformVisible">
+<form ngNoForm [formGroup]="regForm">
+  <table>
+    <th colspan="2">Insert Movie Data</th>
+    <tr>
+      <td>MovieName</td>
+      <td><input type="text" placeholder="MovieName" formControlName="MovieName" required/></td>
+    </tr>
+    <tr>
+        <td>MoviePosterUrl</td>
+        <td><input type="url" placeholder="MoviePosterUrl" formControlName="MoviePosterUrl" required/></td>
+    </tr>
+    <tr>
+        <td>MovieBio</td>
+        <td><input type="text" placeholder="MovieBio" formControlName="MovieBio" required/></td>
+    </tr>
+    <tr>
+        <td>MoviePlot</td>
+        <td><input type="text" placeholder="MoviePlot" formControlName="MoviePlot" required/></td>
+    </tr>
+    <tr>
+        <td>YearOfRelease</td>
+        <td><input type="number" min="1800" placeholder="YearOfRelease" formControlName="YearOfRelease" required/></td>
+    </tr>
+    <tr>
+        <td>Actor</td>
+        <td *ngFor="let row of ActorRows; let i=index">
+            <select (change)="onChange($event)" id={{i}}>
+            <option value="Select">Select Actor</option>
+            <option *ngFor="let c of dataValAct" value='{{c.id}},{{c.name}}'>{{c.name}}</option>
+            </select>
+        </td>
+        <td>
+          <input type="button" value="+" (click)="addRow()" [disabled]="isVisible"/>
+        </td>
+        <td>
+            <input type="button" value="-" (click)="delRow()" id="row{{i}}" [disabled]="isDelVisible"/>
+        </td>
+        <td>
+            <input type="button" value="Add New" *ngIf="isBoxVisible" (click)="setFormVisible(0)"/>
+        </td>
+    </tr>
+    <tr>
+      <td>Producer</td>
+      <td>
+          <select (change)="onChangeProd($event)">
+          <option value="Select">Select Producer</option>
+          <option *ngFor="let c of dataValProd" value={{c.id}}>{{c.name}}</option>
+          </select>
+      </td>
+      <td>
+          <input type="button" value="Add New" *ngIf="true" (click)="setFormVisible(1)"/>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="button" value="Save" (click)="SaveData()"></td>
+    </tr>
+  </table>
+</form>
+</div>
+
+<div *ngIf="actorVisible">
+  <form [formGroup]="actorForm">
+  <table>
+    <th colspan="2">New Actor</th>
+    <tr>
+      <td>Name</td>
+      <td><input type="text" placeholder="ActorName" formControlName="ActorName" required></td>
+    </tr>
+    <tr>
+      <td>Date Of Birth</td>
+      <td><input type="date" placeholder="DOB" formControlName="DOB" required></td>
+    </tr>
+    <tr>
+      <td>Bio</td>
+      <td><input type="text" placeholder="Bio" formControlName="Bio" required></td>
+    </tr>
+    <tr>
+      <td>Sex</td>
+      <td><select (change)="onChangeActor($event)">
+        <option value="Select">Select</option>
+        <option value="M">M</option>
+        <option value="F">F</option>
+      </select></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="Save" (click)="UpdateActorModel()"></td>
+        <td><input type="button" value="Close" (click)="CloseAction(0)"></td>
+        <td><input type="button" value="Reset" (click)="ResetAction(0)"></td>
+    </tr>
+  </table>
+</form>
+</div>
+
+<div *ngIf="prodVisible">
+  <form [formGroup]="producerForm">
+    <table>
+      <th colspan="2">New Producer</th>
+      <tr>
+        <td>Name</td>
+        <td><input type="text" placeholder="ProducerName" formControlName="ProducerName" required></td>
+      </tr>
+      <tr>
+        <td>Date Of Birth</td>
+        <td><input type="date" placeholder="DOB" formControlName="DOB" required></td>
+      </tr>
+      <tr>
+        <td>Bio</td>
+        <td><input type="text" placeholder="Bio" formControlName="Bio" required></td>
+      </tr>
+      <tr>
+        <td>Sex</td>
+        <td><select (change)="onChangeProducer($event)">
+          <option value="Select">Select</option>
+          <option value="M">M</option>
+          <option value="F">F</option>
+        </select></td>
+      </tr>
+      <tr>
+          <td><input type="button" value="Save" (click)="UpdateProducerModel()"></td>
+          <td><input type="button" value="Close" (click)="CloseAction(1)"></td>
+          <td><input type="button" value="Reset" (click)="ResetAction(1)"></td>
+      </tr>
+    </table>
+  </form>
+</div>

@@ -1,0 +1,21 @@
+<table>
+  <tr>
+    <th>MovieName</th>
+    <th>MoviePoster</th>
+    <th>MovieInfo</th>
+    <th>ProducerInfo</th>
+    <th>ActorInfo</th>
+  </tr>
+  <tr *ngFor="let data of dataVal">
+    <td>{{data.movy.name}}</td>
+    <td>{{data.movy.poster}}</td>
+    <td>Bio - {{data.movy.bio}}<br />Plot - {{data.movy.plot}}<br />YearOfRelease - {{data.movy.yoR}}</td>
+    <td>Name - {{data.producer.name}} <br /> Bio - {{data.producer.bio}} <br /> DoB - {{data.producer.dob}} <br /> Sex - {{data.producer.sex}}<br /></td>
+    <td>
+      <div *ngFor="let actor of data.actors">
+        Name - {{actor.name}} <br /> Bio - {{actor.bio}} <br /> DoB - {{actor.dob}} <br /> Sex - {{actor.sex}}<br />
+        <br />
+      </div>
+    </td>
+  </tr>
+</table>

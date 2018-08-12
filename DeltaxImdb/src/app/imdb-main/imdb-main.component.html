@@ -1,0 +1,9 @@
+<div style="clear: both;">
+  <h1>Imdb Sample DeltaX</h1>
+  <input type="button" value="Create New Toggle" style="float: right;" (click)="changeVisibility()">
+  <input type="button" value="Refresh Table" style="float: right;" (click)="refresh()">
+</div>
+<div *ngIf="isVisibleCreate">
+  <app-insert-data></app-insert-data>
+</div>
+<app-show-data></app-show-data>
