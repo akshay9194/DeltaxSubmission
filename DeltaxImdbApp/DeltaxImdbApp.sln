@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeltaxImdbApp", "DeltaxImdbApp\DeltaxImdbApp.csproj", "{E192B4F5-41DF-4C91-87A6-DB20ED750418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeltaxImdbApp", "DeltaxImdbApp\DeltaxImdbApp.csproj", "{E192B4F5-41DF-4C91-87A6-DB20ED750418}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imdb.Common", "D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\Imdb.Common.csproj", "{7A7AC257-2106-413A-928A-F75ACA7CF8D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imdb.Common", "Imdb.Common\Imdb.Common.csproj", "{7A7AC257-2106-413A-928A-F75ACA7CF8D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
