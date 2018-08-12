@@ -15,7 +15,8 @@ Application Operations:
 
 Steps:
 1. Run SQL scripts.
-2. Run services from Visual Studio.
+2. Change DBConnection string in App.config present in Visual Studio Solutions .
+3. Run services from Visual Studio.
 3. Replace Url with the Url hosted in IIS, in insert-data-componet.ts and show-data-component.ts files, present in angular solution.
 4. Run angular solution and its good to go.
 
