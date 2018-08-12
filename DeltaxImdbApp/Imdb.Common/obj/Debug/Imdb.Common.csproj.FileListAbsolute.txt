@@ -1,0 +1,12 @@
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\bin\Debug\Imdb.Common.dll.config
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\bin\Debug\Imdb.Common.dll
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\bin\Debug\Imdb.Common.pdb
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\bin\Debug\EntityFramework.dll
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\bin\Debug\EntityFramework.xml
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\obj\Debug\Imdb.Common.csprojAssemblyReference.cache
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\obj\Debug\Imdb.Common.csproj.CoreCompileInputs.cache
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\obj\Debug\Imdb.Common.csproj.CopyComplete
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\obj\Debug\Imdb.Common.dll
+D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\obj\Debug\Imdb.Common.pdb
