@@ -7834,8 +7834,8 @@
     },
     "Imdb.Common/1.0.0": {
       "type": "project",
-      "path": "D:\\DeltaX\\SQL\\ImdbSampleService\\Imdb.Common\\Imdb.Common.csproj",
-      "msbuildProject": "D:\\DeltaX\\SQL\\ImdbSampleService\\Imdb.Common\\Imdb.Common.csproj"
+      "path": "../Imdb.Common/Imdb.Common.csproj",
+      "msbuildProject": "../Imdb.Common/Imdb.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7854,11 +7854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\akshay.bajaj\\source\\repos\\DeltaxImdbApp\\DeltaxImdbApp\\DeltaxImdbApp.csproj",
+      "projectUniqueName": "C:\\Users\\Akshay.Bajaj\\source\\repos\\DeltaxSubmission\\DeltaxImdbApp\\DeltaxImdbApp\\DeltaxImdbApp.csproj",
       "projectName": "DeltaxImdbApp",
-      "projectPath": "c:\\users\\akshay.bajaj\\source\\repos\\DeltaxImdbApp\\DeltaxImdbApp\\DeltaxImdbApp.csproj",
+      "projectPath": "C:\\Users\\Akshay.Bajaj\\source\\repos\\DeltaxSubmission\\DeltaxImdbApp\\DeltaxImdbApp\\DeltaxImdbApp.csproj",
       "packagesPath": "C:\\Users\\Akshay.Bajaj\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\akshay.bajaj\\source\\repos\\DeltaxImdbApp\\DeltaxImdbApp\\obj\\",
+      "outputPath": "C:\\Users\\Akshay.Bajaj\\source\\repos\\DeltaxSubmission\\DeltaxImdbApp\\DeltaxImdbApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7877,8 +7877,8 @@
       "frameworks": {
         "net461": {
           "projectReferences": {
-            "D:\\DeltaX\\SQL\\ImdbSampleService\\Imdb.Common\\Imdb.Common.csproj": {
-              "projectPath": "D:\\DeltaX\\SQL\\ImdbSampleService\\Imdb.Common\\Imdb.Common.csproj"
+            "C:\\Users\\Akshay.Bajaj\\source\\repos\\DeltaxSubmission\\DeltaxImdbApp\\Imdb.Common\\Imdb.Common.csproj": {
+              "projectPath": "C:\\Users\\Akshay.Bajaj\\source\\repos\\DeltaxSubmission\\DeltaxImdbApp\\Imdb.Common\\Imdb.Common.csproj"
             }
           }
         }

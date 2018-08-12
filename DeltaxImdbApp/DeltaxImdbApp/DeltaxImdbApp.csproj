@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="D:\DeltaX\SQL\ImdbSampleService\Imdb.Common\Imdb.Common.csproj" />
+    <ProjectReference Include="..\Imdb.Common\Imdb.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>
