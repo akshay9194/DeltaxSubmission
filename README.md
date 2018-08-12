@@ -19,5 +19,8 @@ Steps:
 3. Replace Url with the Url hosted in IIS, in insert-data-componet.ts and show-data-component.ts files, present in angular solution.
 4. Run angular solution and its good to go.
 
+Further Improvements and Enhancements:
+1. UI needs to get improved.
+2. Functionality to edit rows and columns also can be added in solution.
 
 
