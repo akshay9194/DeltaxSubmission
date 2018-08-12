@@ -13,5 +13,11 @@ Application Operations:
 1. List all movies with Name, Year of release, Producer and all Actors of that movie
 2. ‘add’ a new movie with the necessary fields with existing actors and producers with the capability of adding new Producer and Actor as well.
 
+Steps:
+1. Run SQL scripts.
+2. Run services from Visual Studio.
+3. Replace Url with the Url hosted in IIS, in insert-data-componet.ts and show-data-component.ts files, present in angular solution.
+4. Run angular solution and its good to go.
+
 
 
